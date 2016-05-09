@@ -96,6 +96,6 @@ for d in range(1,(number_of_pages+1)):
             writer = csv.writer(logfile)
             writer.writerow(output_row)
 
-    print("Finished with page{}".format(d))
+    print("Finished with page {}".format(d))
 
 print("Finished downloading! {} files in total".format(counter))
