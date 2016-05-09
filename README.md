@@ -9,5 +9,4 @@ To use:
 * Run the script (python 3)
 ```python downloader.py```
 
-* Paste in your URL when prompted
- Example: ```https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d280b6c05e```
+* Paste in your URL when prompted. Example: ```https://foiaonline.regulations.gov/foia/action/public/view/request?objectId=090004d280b6c05e```
