@@ -40,7 +40,7 @@ counter = 0
 for d in range(1,(number_of_pages+1)):
 
     # open a url, changing the 'p=' for each number in our list, so that it opens all pages 1-5, in order
-    page_url = "https://foiaonline.regulations.gov/foia/action/public/view/request?event=request&objectId=090004d280b6c05e&d-8138531-p={}#dttPubRecords".format(d)
+    page_url = "https://foiaonline.regulations.gov/foia/action/public/view/request?event=request&objectId={}&d-8138531-p={}#dttPubRecords".format(foia_online_id, d)
     # print(page_url)
 
     #open the page_url and pull the html out of it and into a variable
