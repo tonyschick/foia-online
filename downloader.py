@@ -16,7 +16,11 @@ with open('foia-download-log.csv', 'a', newline='') as logfile:
 
 http = urllib3.PoolManager()
 
-foia_online_id = sys.argv[1]
+try:
+    foia_online_id = sys.argv[1]
+except:
+    foia_online_id = input("Input FOIA ID (From URL. Not tracking #): ")
+
 url = "https://foiaonline.regulations.gov/foia/action/public/view/request?objectId={}".format(foia_online_id)
 
 # using urllib3 to open the page
