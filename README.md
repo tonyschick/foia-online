@@ -6,8 +6,8 @@ To use:
 * Download required libraries
 ```pip install -r /path/to/requirements.txt```
 
-* Run the script (python 3). You can run with your FOIA objectId command line argument:  
-```python downloader.py 090004d280b6c05e```
+* Run the script (python 3). You can run with your FOIA objectId command line argument, or enter it after a prompt:  
+```python downloader.py``` or ```python downloader.py 090004d280b6c05e`
  
 Or, with minimal tweaking, by pasting in the URL for your FOIA results.
 
